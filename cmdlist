@@ -1,0 +1,13 @@
+# Setup the env
+mkdir some_django_project
+cd some_django_project/
+virtualenv some_django_project
+source some_django_project/bin/activate
+pip install django
+
+# Setup the django project
+django-admin startproject django_project
+python manage.py runserver
+
+# Cleanup
+deactivate

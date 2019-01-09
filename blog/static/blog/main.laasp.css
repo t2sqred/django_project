@@ -1,0 +1,105 @@
+/* These styles are generated from project.scss. */
+
+.alert-debug {
+  color: black;
+  background-color: white;
+  border-color: #d6e9c6;
+}
+
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+.dropdown-toggle {
+  color: #b94a48;
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+  /* background-image: url("/static/images/tech_bg_fade.png"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+footer {
+  /* padding-top: 1rem; */
+  /* padding-bottom: 1rem; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 45px;
+  line-height: 45px; /* Vertically center the text there */
+  background-color: #0b023e;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.bg-cover {
+  background-size: cover;
+  color: white;
+  background-color: #0b023e;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+  height: 100vh;
+}
+
+.bg-company-blue {
+  background-color: #0b023e;
+}
+
+.num_chassis_col {
+  text-align: center;
+}
+
+.num_connections_col {
+  text-align: center;
+}
+
+.num_interface_col {
+  text-align: center;
+}
+
+.status_col {
+  text-align: center;
+}
+
+.ints_col {
+  text-align: center;
+}
+
+.is_virtual {
+  text-align: center;
+}
+
+.delete {
+  text-align: center;
+}
+
+.jumbotron {
+  padding: 10px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #0b023e;
+  padding: 0px;
+  margin: 2px;
+} 
+
+.jumbotron hr {
+  color: red;
+  margin: 10px 0 10px 0;
+} 
+
+.jumbotron edit_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
