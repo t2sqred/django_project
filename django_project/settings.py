@@ -25,7 +25,9 @@ SECRET_KEY = 'ge++s-^g5^u52i@uhoct7g+%wcu8mk3rk!$%%ue0p+cl8aoxft'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'djapp2-dj2.cluster.local',
+]
 
 
 # Application definition
